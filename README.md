@@ -7,6 +7,9 @@ Swift Mac App to listen for iMessages, prompt LLMs and send responses through Me
 
 ---
 
+## Demo
+https://github.com/mkg-gh/AIIM/assets/466841/515f867d-bd9e-4d41-a068-c415ca38dd1e
+
 ## Setup
 - Open project in Xcode
 - Update Settings.swift with OpenAI key and AppleId you will send messages from
