@@ -33,8 +33,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
      func checkForNewMessages() {
         if let message = DatabaseManager.shared.getNewMessage() {
          Task {
-             let oaiResponse = await LLM().openAICompletion(prompt: message.text)
+             let oaiResponse = await LLM().gptChat(prompt: message.text)
              print("oaiResponse: \(oaiResponse)")
+             
              DatabaseManager.shared.llmResponseToIgnore = oaiResponse
              
              // send the LLM response to the AppleID contact
