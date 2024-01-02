@@ -15,10 +15,13 @@ Swift Mac App to listen for iMessages, prompt LLMs and send responses through Me
 - When prompted, select 'Allow' for sending Apple Events to Messages
 - Update Settings → Privacy & Security → Full Disk Access and toggle AIIM to On
 
+<img style="max-width:250px;" src="https://github.com/mkg-gh/AIIM/blob/main/resources/aiim_allow_apple_events.png">
+<img style="max-width:500px;" src="https://github.com/mkg-gh/AIIM/blob/main/resources/settings_full_disk_access.png">
+
 ## Supported:
 - Tested on:
     - M1 Max Sonoma 14.2
-    - M2 Pro 
+    - M2 Pro Ventura 13.6
 
 ## TODO:
 - Settings UI to manage AppleID, keys, model selection
